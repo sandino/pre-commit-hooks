@@ -1,0 +1,4 @@
+- id: check-migrations
+  name: Check if there change in Django project that need DB migrations.
+  languate: script
+  entry: pre_commit_hooks/check_migrations.sh
